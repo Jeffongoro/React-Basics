@@ -1,15 +1,13 @@
-// import Counter from './components/counter'
-import ExampleComponent from './components/example'
+import Counter from './components/counter'
 import './App.css'
 
 function App() {
   
   return (
     <>
-    {/* <Counter /> */}
-    <ExampleComponent/>
+    <Counter />
     </>
   )
 }
 
-export default App
+export default App;
