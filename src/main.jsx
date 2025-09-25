@@ -7,6 +7,7 @@ import Counter from './components/counter.jsx'
 import PageNotFound from './components/notfound.jsx'
 import Dashboard from './components/dashboard.jsx'
 import ExampleComponent from './components/example.jsx'
+import Count from './components/count.jsx'
 
 
 const router = createBrowserRouter([
@@ -16,6 +17,7 @@ const router = createBrowserRouter([
   {path:"/dashboard",element:<Dashboard />},
   // {path:"/dashboard/:id",element:<DashboardItems />},
   {path:"/Example",element:<ExampleComponent />},
+    {path:"/Count",element:<Count />},
   
 ]);
 
